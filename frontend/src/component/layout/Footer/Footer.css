@@ -1,0 +1,123 @@
+.footerContainer {
+  margin-top: 32vh;
+  padding: 2vh;
+  background: linear-gradient(to right, #ffb347, #ffcc33);
+  color: black;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.leftFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftFooter > h4 {
+  font-family: "Roboto";
+  font-size: 2vh;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+.leftFooter > .quickLink {
+  text-decoration: none;
+  font-size: 2vh;
+  font-family: "Roboto";
+  color: black;
+  transition: all 0.5s;
+  margin: 0.5vh;
+  width: 150px;
+}
+
+.leftFooter > .quickLink:hover {
+  color: white;
+}
+
+.midFooter {
+  width: 100%;
+  text-align: center;
+}
+
+.midFooter > h1 {
+  font-size: 6vh;
+  font-family: "Roboto";
+  color: white;
+}
+
+.midFooter > h3 {
+  font-size: 3vh;
+  font-family: "Roboto";
+  color: white;
+}
+
+.midFooter > p {
+  font-family: "Roboto";
+  margin: 1vh auto;
+}
+
+.midFooter > .copy {
+  font-family: "Roboto";
+  margin: 1vh auto;
+  color: white;
+}
+
+.rightFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightFooter > h4 {
+  font-family: "Roboto";
+  font-size: 2vh;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+.rightFooter > a {
+  text-decoration: none;
+  font-size: 2vh;
+  font-family: "Roboto";
+  color: black;
+  transition: all 0.5s;
+  margin: 0.5vh;
+  width: 150px;
+}
+
+.rightFooter > a:hover {
+  color: white;
+}
+
+.youtubeSvgIcon {
+  color: rgb(241, 36, 0);
+}
+
+.instagramSvgIcon {
+  color: #833ab4;
+}
+
+.facebookSvgIcon {
+  color: #0076c5;
+}
+
+.twitterSvgIcon {
+  color: #009cda;
+}
+
+@media screen and (max-width: 600px) {
+  .footerContainer {
+    display: grid;
+  }
+  .leftFooter {
+    order: 2;
+    padding: 2vmax;
+  }
+  .midFooter {
+    order: 1;
+    padding: 2vmax;
+  }
+  .rightFooter {
+    order: 3;
+    padding: 2vmax;
+  }
+}
