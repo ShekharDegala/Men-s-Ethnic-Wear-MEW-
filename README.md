@@ -38,34 +38,6 @@ Men's Ethnic Wear is an ecommerce web application
 - Admin: List Review of Product | Delete Review
 - Stock Management: Decrease stock of product when shipped
 
-## Run Locally
-Clone the project
-```bash
-  git clone https://github.com/MohammadOwais10/MEW.git
-```
-Go to the project directory
-```bash
-  cd project
-```
-Install dependencies
-```bash
-  npm install
-```
-```bash
-  cd frontend/
-  npm install
-```
-Start the server 
-```bash
-  npm run start
-```
-Start the client 
-```bash
-  //open another terminal
-  cd frontend/
-  npm start
-```
-
 ## Environment configurations
 set your config.env file : use given format
 ```
